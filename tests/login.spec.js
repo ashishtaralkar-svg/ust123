@@ -9,7 +9,7 @@ test(`login${para.username}`, async({page})=>{
     await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
     //await page.pause();
     const Login= new login(page)
-    test.slow()
+    test.slow() //new
     await Login.navigation(para.username,para.password)
     
     
