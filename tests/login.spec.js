@@ -11,7 +11,7 @@ test(`login${para.username}`, async({page})=>{
     const Login= new login(page)
     test.slow() //new //1//ashish //1990//1990add
     await Login.navigation(para.username,para.password)
-    
+    //ashish
     
 
 })
